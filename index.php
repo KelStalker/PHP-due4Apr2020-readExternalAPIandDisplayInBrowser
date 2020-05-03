@@ -16,6 +16,9 @@
         $kelsAssignmentIs = 'Kels assignment is: $assignmentDetails';
         $assignmentDetails = ' read an api and output in browser';
         echo "$kelsAssignmentIs " . "$assignmentDetails";
+        
+        include './includes/navigation.php';
+
     ?>
 </body>
 </html>
