@@ -41,7 +41,7 @@ $apidata = array(
   )
 );
 
-// Set headers to be more descriptive.
+// Set headers to be more descriptive - this will format our
 header( 'Content-Type: application/json' );
 
 // Convert from a PHP object/array, to a JSON string.
