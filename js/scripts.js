@@ -3,7 +3,7 @@ const apiTest1Element = document.getElementById( 'api-test1');
 
 
 
-//  alert( 'Hello Kel!');   **WORKING!**
+ alert( 'Hello Kel!');  // **WORKING!**
 
 // Sets the request URL and converts the response string to an object
 

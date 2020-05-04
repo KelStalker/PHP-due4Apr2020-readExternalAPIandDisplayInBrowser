@@ -10,5 +10,9 @@
         <li>
             <a href="../api-request-test1.php">API Request Test1 (JS and Endpoint)</a>
         </li>
+        <li>
+            <a href="../api-external-spacex-launchdata.php">API Request for SpaceX Launch Info</a>
+        </li>
+
     </ul>
 </nav>
