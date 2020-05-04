@@ -4,8 +4,8 @@ $spaceXLaunchDataJSONString = file_get_contents( 'https://api.spacexdata.com/v3/
   // Convert the response to a PHP object.
   $spaceXLaunchDataObject = json_decode( $spaceXLaunchDataJSONString );
   
-  // Collect the first user in the results array.
-  $spaceXLaunchData = $spaceXLaunchDataObject->results[0];
+  // Should collect the second launch in the array. (array[1] is the second entry)
+  $spaceXLaunchData = $spaceXLaunchDataObject->results[1];
 ?><!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,3 +16,5 @@ $spaceXLaunchDataJSONString = file_get_contents( 'https://api.spacexdata.com/v3/
 <body>
   <h1>External API PHP SpaceX Launch Data</h1>
   <?php include './includes/navigation.php'; ?>
+  <h2>SpaceX Launch Info (2nd entry in array)</h2>
+  </body>
