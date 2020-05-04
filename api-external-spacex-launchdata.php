@@ -1,6 +1,6 @@
 <?php
 // Submit a request to SpaceX for it's launch data
-$spaceXLaunchDataJSONString = file_get_contents( 'https://api.spacexdata.com/v3/launches');
+$spaceXLaunchDataJSONString = file_get_contents( 'https://api.spacexdata.com/v3/launches/latest');
   // Convert the response to a PHP object.
   $spaceXLaunchDataObject = json_decode( $spaceXLaunchDataJSONString );
   
