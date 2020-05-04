@@ -7,5 +7,8 @@
         <li>
             <a href="../includes/datatypes.php">Data Types</a>
         </li>
+        <li>
+            <a href="../api-request-test1.php">API Request Test1 (JS and Endpoint)</a>
+        </li>
     </ul>
 </nav>
